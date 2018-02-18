@@ -8,8 +8,11 @@ public interface BreedActivityContract {
 
     interface View extends BaseView<Presenter> {
         void progressView(boolean show);
+
         void showToastServerError();
+
         void showToastNoNetwork();
+
         void refreshTabs();
     }
 

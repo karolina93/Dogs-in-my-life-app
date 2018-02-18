@@ -60,7 +60,7 @@ public class BreedRepository implements BreedRepositoryInterface {
 
                     @Override
                     public void onNext(BreedsResponse breedsResponse) {
-                        if (breedsResponse.getStatus().equals("success")) {
+                        if ("success".equals(breedsResponse.getStatus())) {
                             callback.onSuccess(breedsResponse.getBreedList());
                         } else {
                             callback.onError(false);

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BreedsResponse {
-    transient String status;
+    String status;
     transient List<Breed> breedList;
 
     @SerializedName("message")
@@ -18,7 +18,7 @@ public class BreedsResponse {
 
     public List<Breed> getBreedList() {
         breedList = new ArrayList<>();
-        for (String s: namesList){
+        for (String s : namesList) {
             Breed breed = new Breed(s);
             breed.setLiked(true);
             breedList.add(breed);

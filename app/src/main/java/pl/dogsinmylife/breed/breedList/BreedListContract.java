@@ -21,6 +21,7 @@ public interface BreedListContract {
 
     interface Presenter extends BasePresenter {
         void refresh();
+
         void updateBreed(Breed breed, boolean liked);
     }
 }
