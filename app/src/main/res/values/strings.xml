@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dogs in my life</string>
+    <string name="no_breeds">No dogs</string>
+    <string name="liked_dogs">Dogs I like</string>
+    <string name="not_liked_dogs">Dogs I don\'t like</string>
+    <string name="server_error">Error downloading data</string>
+    <string name="no_network">No internet connection</string>
+</resources>
